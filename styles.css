@@ -33,7 +33,7 @@ nav ul li a {
 .hero {
     position: relative;
     overflow: hidden;
-    height: 100vh; /* Adjust as needed */
+    height: 150vh; /* Adjust as needed */
     text-align: center;
     padding: 100px 20px;
 }
@@ -44,13 +44,16 @@ nav ul li a {
     margin-bottom: 20px;
     position: relative;
     z-index: 1;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Black low shadow effect */
 }
 
 .hero p {
     font-size: 1.2rem;
-    color: #666;
+    color: white;
     position: relative;
     z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Black low shadow effect */
 }
 
 .hero .video-background {
