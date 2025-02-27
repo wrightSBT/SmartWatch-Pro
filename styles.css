@@ -93,8 +93,9 @@ nav ul li a {
 
 .feature-list {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 20px; /* Adjust gap between features */
+    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
 }
 
 .feature {
@@ -105,11 +106,11 @@ nav ul li a {
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
+    width: 300px; /* Adjust width as needed */
 }
 
 .feature video {
     width: 100%;
-    max-width: 500px; /* Adjust max width as needed */
     height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
